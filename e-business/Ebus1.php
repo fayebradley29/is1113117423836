@@ -17,14 +17,14 @@
         <form method= "PDSI" action= "Ebus2.php">
         
         <label for "salesforce">
-        <Input type= "radio" id = "salesforce" name = "product" checked onClick = "disabledbtnProceed()"/>
+        <Input type= "radio" id = "salesforce" name = "product" checked onClick = "disablebtnProceed()"/>
         Salesforce @ $100
         </label>
         
         </br>
         
         <label for "aws">
-        <Input type= "radio" id = "aws" name = "product"  onClick = "disabledbtnProceed()"/>
+        <Input type= "radio" id = "aws" name = "product"  onClick = "disablebtnProceed()"/>
         AWS @ $300
         </label>
         
@@ -52,7 +52,7 @@
         
         </form>
         
-        </br
+        </br>
         
         <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href= "Ebus1.php">Clear Choice</a>
