@@ -1,0 +1,21 @@
+mainheading{
+    text-align:center;
+    font-size: 60px ;
+    font-family: sans-serif;
+    color: #2F4F4F;
+     
+ }
+ 
+ btn-group{
+    background-color: #796B6E;
+    border: thick;
+    color: white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 22px;
+    margin: 25px 50px;
+    width: 15%;
+    
+}

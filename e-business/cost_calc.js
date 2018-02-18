@@ -4,12 +4,10 @@
 
 function calcSub(){
 
-    
-
+  
     var argSubTotal;
 
-    
-
+  
     if(document.getElementById('salesforce').checked) {
 
       argSubTotal = 100;
@@ -22,7 +20,6 @@ function calcSub(){
 
     }
 
-    
 
     display(argSubTotal);
 

@@ -1,28 +1,58 @@
-.mainheading{
+body{
+
+    background-image: url("https://teacherluke.co.uk/wp-content/uploads/2015/10/white-brick-wall-dutourdumonde-photography.jpg");
+    font-family: 'arial', serif;
+}
+
+.nav{
+    background-color:#796B6E;
+    color: #ffffff;
+    list-style: none;
     text-align: center;
+    padding:20px 0 20px;
 }
 
-.btn btn-dark{
-    background:red;
-    position:relative;
-    left:10px;
-}
-.btn btn-success{
-    background:blue;
+.nav > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
 }
 
 
+.nav > li > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav > li > a:hover {
+    color: #FF33E6;
+}
+
+h1{
+    text-align:center;
+    font-size: 60px ;
+    font-family: sans-serif;
+    color: #2F4F4F;
+}
  
- .btn {
-    background-color: #E2A9F3;
-    border: none;
+.mainheading{
+     
+    text-align:center;
+    font-size: 60px ;
+    font-family: sans-serif;
+    color: #2F4F4F;
+}
+
+.btn-group{
+    background-color: #796B6E;
+    border: thick;
     color: white;
-    padding: 15px 32px;
+    padding: 20px 60px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    display: block;
+    font-size: 22px;
+    margin: 5px 5px;
+    width: 15%;
 }
+
  
