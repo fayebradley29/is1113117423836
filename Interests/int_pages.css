@@ -1,16 +1,18 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+    background-image: url("http://theflightfinder.com/wp-content/uploads/2017/12/paris.jpg");
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background-image: url("https://si.wsj.net/public/resources/images/BN-NI160_MADRID_M_20160330133600.jpg");
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background-image: url("https://www.themetropolehotel.ie/upload/slide_images/cork.jpg");
 }
 
-.section{
+section{
     text-align: center;
     color: white;
+    font-size: 25px;
+    
 }
