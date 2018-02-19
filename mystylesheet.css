@@ -77,6 +77,10 @@ p{
      background-image: url("https://i.warosu.org/data/biz/img/0004/06/1405139635327.jpg");
      padding:20px;
      
-     
  }
  
+ p{
+      text-align: center;
+  margin: 0 auto;
+     
+ }
