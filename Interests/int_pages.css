@@ -1,18 +1,66 @@
 #section1{
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ce/c8/46/cec84661c9bda1ada4ab2d4bc03c22c4.jpg");
+    background-image: url("https://wallpapercave.com/wp/9mPb6oA.jpg");
+     font-family: 'arial', serif;
+     font-size: 60px;
+     color:white;
+     text-align:center;
 }
 
 #section2{
-    background-image: url("http://s1.1zoom.me/b5050/519/356745-admin_1024x768.jpg");
+    background-image: url("https://wallpaperscraft.com/image/new_york_night_skyscrapers_top_view_59532_1600x900.jpg");
+    font-family: 'arial', serif;
+     font-size: 60px;
+     color:white;
+     text-align:center;
+    
 }
 
 #section3{
-    background-image: url("https://www.themetropolehotel.ie/upload/slide_images/cork.jpg");
+    background-image: url("http://data.1freewallpapers.com/download/cliffs-of-moher-county-clare-ireland-1600x900.jpg");
+    font-family: 'arial', serif;
+     font-size: 60px;
+     color:white;
+     text-align:center;
+    
+}
+
+#section4{
+    background-image: url("https://69445235844b78bbd4c8-40765e7850b487e7db6d0b1ca2adcee0.ssl.cf3.rackcdn.com/_assets/images/cache/productcatalogue/productdetailzoom/ZNIJ04001_zoom.jpg");
+     font-family: 'arial', serif;
+     font-size: 60px;
+     color:white;
+     text-align:center;
+     
+}
+
+#section5{
+    background-image: url("https://wallpaperscraft.com/image/new_york_night_skyscrapers_top_view_59532_1600x900.jpg");
+    font-family: 'arial', serif;
+     font-size: 60px;
+     color:white;
+     text-align:center;
+    
+}
+
+#section6{
+    background-image: url("http://data.1freewallpapers.com/download/cliffs-of-moher-county-clare-ireland-1600x900.jpg");
+    font-family: 'arial', serif;
+     font-size: 60px;
+     color:white;
+     text-align:center;
+    
 }
 
 section{
     text-align: center;
     color: white;
     font-size: 25px;
+    
+}
+
+section2{
+    text-align: center;
+    color: black;
+    font-size: 15px;
     
 }

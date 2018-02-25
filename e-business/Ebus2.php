@@ -15,6 +15,8 @@ session_start();
     
     <body>
         
+        
+        
         <h4>Please enter your payment details.</h4>
         
             <br />

@@ -10,6 +10,7 @@ body{
     list-style: none;
     text-align: center;
     padding:20px 0 20px;
+
 }
 
 .nav > li {
@@ -34,6 +35,12 @@ h1{
     color: #2F4F4F;
 }
  
+ h2{
+    text-align:center;
+    font-size: 30px ;
+    font-family: sans-serif;
+    color: black;
+}
 .mainheading{
      
     text-align:center;
@@ -42,18 +49,50 @@ h1{
     color: #2F4F4F;
 }
 
+.btn-back{ 
+     background-color: #796B6E;
+    border: thick;
+    color: white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 35px 15px;
+    width: 15%;
+    
+}
+
+
 .btn-group{
     background-color: #796B6E;
     border: thick;
     color: white;
     padding: 20px 60px;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     font-size: 22px;
-    margin: 5px 5px;
+    margin: 35px 15px;
     width: 15%;
+    display: inline-block;
     
+}
+
+#bothbuttons{
+    text-align: center;
+}
+
+btn-group.hover{
+    
+    
+    color: #FF33E6;;
+}
+
+
+btn-back.hover {
+    
+    color: #FF33E6;
 }
 
 p{
@@ -71,6 +110,7 @@ p{
      padding:20px;
      width: 80%;
      margin: 0px auto;
+     
  }
  
  #container2{
@@ -79,8 +119,59 @@ p{
      
  }
  
+ #container3{
+     background-color: "white";
+     
+     font-size: 20px
+ }
+ 
  p{
-      text-align: center;
+      text-align: left;
   margin: 0 auto;
      
  }
+ 
+ h4 {
+     text-align:center;
+    font-size: 60px ;
+    font-family: sans-serif;
+    color: #2F4F4F;
+ }
+ 
+
+ 
+ #CV{
+     font-size: 22px;
+    font-family: sans-serif;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    
+    
+ }
+ 
+ #ashtonimage{
+     position: absolute;
+     left: 68%;
+     top: 30%;
+ }
+ #uccimage{
+     position: absolute;
+     left: 60%;
+     top:80%;
+     
+ }
+ 
+ #profilepic{
+     position: absolute;
+     left: 55%;
+     top: 36%;
+     
+ }
+ 
+ #GAP{
+     position: absolute;
+     left: 60%;
+     top: 65%;
+ }
+ 
