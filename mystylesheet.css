@@ -128,6 +128,7 @@ ul{
  #container2{
      background-image: url("https://i.warosu.org/data/biz/img/0004/06/1405139635327.jpg");
      padding:20px;
+     text-align: left;
      
  }
  
@@ -150,11 +151,50 @@ ul{
  #CV{
      font-size: 22px;
     font-family: sans-serif;
-    position: relative;
-    top: 20%;
-    left: 5%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    text-align: left;
     
     
+    
+ }
+ 
+ #school{
+     font-size: 22px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 29%;
+    left: 15%;
+    text-align: left;
+ }
+ 
+ #dunnes{
+     font-size: 22px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 34%;
+    left: 21%;
+    width: 55%;
+     
+ }
+ 
+ #gap{
+     font-size: 22px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 21%;
+    width: 55%;
+ }
+ 
+ #ucc{
+     font-size: 22px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    text-align: left;
  }
  
  #ashtonimage{
@@ -200,8 +240,73 @@ ul{
     margin: 35px 15px;
     width: 25%;
     position: absolute;
-    left: 420px;
-    top:330px;
+    left: 450px;
+    top:335px;
+    
+}
+
+.btn-salesforce{
+      background-color: #1a53ff;
+    border: thick;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 35px 15px;
+    width: 25%;
+    position: absolute;
+    left: 490px;
+    top:510px;
+    
+}
+.btn-cloud9{
+      background-color: #1a53ff;
+    border: thick;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 35px 15px;
+    width: 25%;
+    position: absolute;
+    left: 490px;
+    top:938px;
+    
+}
+.btn-amazon{
+      background-color: #1a53ff;
+    border: thick;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 35px 15px;
+    width: 25%;
+    position: absolute;
+    left: 490px;
+    top:1438px;
+    
+}
+.btn-gmail{
+      background-color: #1a53ff;
+    border: thick;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 35px 15px;
+    width: 25%;
+    position: absolute;
+    left: 490px;
+    top:1870px;
     
 }
 
@@ -237,3 +342,4 @@ ul{
     margin-bottom: 80px;
     color:black;
 }
+

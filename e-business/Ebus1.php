@@ -18,32 +18,39 @@
             
             <ul class = "nav">
          <li><a href="../homepage.html">Home</a></li>
-         <li><a href="../cv_page1.html">Cirriculum Vitae</a></li>
-         <li><a href="../sport.html" >Interests</a> </li>
-         <li><a href = "https://is1113117423836-fayebradley29.c9users.io/e-business/Ebus1.php" >Ebus</a></li>
+         <li><a href="../CV/cv_page1.html">Curriculum Vitae</a></li>
+         <li><a href="../Interests/sport.html" >Interests</a> </li>
+         <li><a href = "../e-business/Ebus1.php" >Ebus</a></li>
          <li><a href= "https://github.com/fayebradley29/is1113117423836" >Github</a></li>
-        <li><a href="../cloudvendor.html"> About Cloud</a> </li>
+         <li><a href="../Cloud/cloudvendor.html">About Cloud</a> </li>
     </ul>
-    
         <br/>
                 <div id = "container3">
                    <form method="POST" action="Ebus2.php">
+              
+              <br>
               
               <label for = "salesforce">
             <input type="radio" id="salesforce" name="product"  onClick="disablebtnProceed()"/>
             Salesforce @ $100
             </label>
-            <b
+            
+            <br/>
+            
             <label for ="cloud9">
             <input type = "radio" id ="cloud9" name = "product" onClick = "disablebtnProceed()"/>
             Cloud 9 @ $200
             </label>
+            
             <br/>
+            
             <label for= "AWS">
            <input type = "radio" id="aws" name="product" onClick="disablebtnProceed()"/>
             Amazon Web Services @ $300
             </label>
+            
             <br/>
+            
             <label for ="Gmail">
             <input type = "radio" id ="Gmail" name = "product" onClick = "disablebtnProceed()"/>
             Gmail @ $400
