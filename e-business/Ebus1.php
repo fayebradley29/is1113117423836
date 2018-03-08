@@ -16,6 +16,9 @@
         <h4>E-Business</h4>
             </div>
             
+            
+            <!--Adding naviagation bar to move between pages-->
+            
             <ul class = "nav">
          <li><a href="../homepage.html">Home</a></li>
          <li><a href="../CV/cv_page1.html">Curriculum Vitae</a></li>
@@ -30,11 +33,14 @@
               
               <br>
               
+              
+              <!--Adding radiobuttons to select a product-->
+              
+              
               <label for = "salesforce">
             <input type="radio" id="salesforce" name="product"  onClick="disablebtnProceed()"/>
             Salesforce @ $100
             </label>
-            
             <br/>
             
             <label for ="cloud9">
@@ -84,6 +90,8 @@
               </label>
     
               <br/>
+              
+              <!--Adding button for products to add to shopping cart-->
               
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             

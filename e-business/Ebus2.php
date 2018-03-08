@@ -30,6 +30,9 @@ session_start();
                 <div id = "container3">
         <form action="Ebus3.php" method="POST">
             
+            
+            <!--creating text boxes for customer to enter details-->
+            
             <label for="user_name">Name:</label>
             <input type="name" id="user_name" name="user_name" placeholder="Name" maxlength="35"/>
             <br>
@@ -54,7 +57,7 @@ session_start();
             <br/>
             <button onClick="validateDetails()">Validate</button>
             
-          
+          <!--passing total cost to nect page-->
             
             <?php
             $_SESSION["total"] = $_POST["total"];

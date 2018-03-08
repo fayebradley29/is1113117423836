@@ -30,6 +30,11 @@ session_start();
             $_SESSION["user_email"] = $_POST["user_email"];
             ?>
         
+        
+        
+        <!--Bringing customer name, email and total price to next page -->
+        
+        
         <?php
         // Echo session variables that were set on previous page
         echo "Customer Name: " . $_SESSION["user_name"] . ".";
@@ -53,7 +58,10 @@ session_start();
         <br>
         
         
-        <a href="../cloudservices.html"><button>Return to Homepage</button></a>
+        
+        <!--Adding button to go back to homepage-->
+        
+        <a href="../homepage.html"><button>Return to Homepage</button></a>
         
         </div>
            
